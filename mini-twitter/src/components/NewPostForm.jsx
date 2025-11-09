@@ -17,7 +17,7 @@ const NewPostForm = ({ onCreatePost }) => {
       <div style={{ marginBottom: '10px' }}>
         <input
           type="text"
-          placeholder="Your Name"
+          placeholder="Title"
           value={name}
           onChange={(e) => setName(e.target.value)}
           required
